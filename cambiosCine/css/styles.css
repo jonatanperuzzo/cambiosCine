@@ -1,0 +1,42 @@
+#jumbotron-color, footer {
+	background-color: #034f84;
+}
+
+.login {
+	color: white;
+	float: right;
+	margin: 2px;
+}
+
+.menu-active {
+	color: red;
+	background-color: white;
+}
+
+.menu-non-active {
+	color: white;
+	background-color: red;
+}
+
+body {
+	background-color: #000;
+}
+
+body > div > header > ul > li > a {
+	color: #fff;
+	background-color: #d30f1c;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+body > div > header > ul > li > a:hover {
+	color: #d30f1c;
+	background-color: #fff;
+}
+
+/* Carousel */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 100%;
+	margin: auto;
+}

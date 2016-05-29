@@ -1,0 +1,6 @@
+/* Modificacion en el archivo index.html */
+
+/* Se inserto una nueva hoja de estilos, llamada estilos.css
+** para pisar el archivos styles.css de Bootstrap y modificar
+** algunas reglas.
+*/

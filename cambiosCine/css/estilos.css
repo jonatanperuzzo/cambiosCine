@@ -1,0 +1,163 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face{
+	font-family: 'helvetica-neue-bold';
+	src: url('fonts/helvetica-neue-bold.ttf');
+}
+
+body{
+	background-image: url(../images/115.jpg);
+	background-position: 50% 0%;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+#container{
+	width: 1000px;
+	height: 1000px; 
+}
+
+#title{
+	font-family: 'helvetica-neue-bold';
+	color: #2b6caf;
+	font-size: 19px;
+}
+
+#section0{
+	width: 850px;
+	height: 50px; 
+	position: relative;
+	top: 185px;
+	bottom:;
+	left:;
+	right: 470px;
+}
+
+#section1{
+	width: 950px;
+	height: 80px;
+	background-color: #3da7da;
+	border: 1px solid #828181;
+	/*background: url(../images/sombra.png) repeat-x left top;*/
+	/*-moz-border-image:url(../images/sombra.png) 30 30 round; 
+    -webkit-border-image:url(../images/sombra.png) 30 30 round; 
+    -o-border-image:url(../images/sombra.png) 30 30 round; 
+    border-image:url(../images/sombra.png) 30 30 round;*/
+	position: relative;
+	top: 180px;
+	bottom:;
+	left:;
+	right:;
+}
+
+#article0{
+	position: relative;
+	top:;
+	bottom: 0px;
+	right: 470px;
+	left:;
+}
+
+#complejo{
+	font-family: Arial;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 12px;
+	position: relative;
+	top:;
+	bottom: -5px;
+	right:;
+	left: ;
+}
+
+#pelicula{
+	font-family: Arial;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 12px;
+	position: relative;
+	top:;
+	bottom: -5px;
+	right:;
+	left: ;
+}
+
+#article1{
+	position: relative;
+	top:;
+	bottom: 55px;
+	right: 280px;
+	left:;
+}
+
+#article2{
+	position: relative;
+	top:;
+	bottom: 110px;
+	right:;
+	left: 395px;
+}
+
+#dia{
+	font-family: Arial;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 12px;
+	position: relative;
+	top: 5px;
+	bottom:;
+	right: 480px;
+	left:;
+}
+
+
+select{
+	background: #eee url(../images/boton.png) no-repeat right center;
+	font-size: 16px;
+	border: 1px solid #828181;
+	/*border-radius: 3px;*/
+	-webkit-appearance: none;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+	padding-right: 25px;   
+}
+
+
+#article3{
+	position: relative;
+	top:;
+	bottom: 165px;
+	right:;
+	left: 550px;
+}
+
+#horario{
+	font-family: Arial;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 12px;
+	position: relative;
+	top: 7px;
+	bottom:;
+	right:;
+	left:;
+}
+
+.boton{
+	width: 150px;
+	height: 36px;
+	color: #FFF;
+	font-size: 12px;
+	font-family: 'helvetica-neue-bold';
+	padding: 10px;
+	background-color: #87b929;
+	position: relative;
+	top:;
+	bottom: 200px;
+	right:;
+	left: 750px;
+}
